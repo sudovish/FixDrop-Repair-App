@@ -8,10 +8,6 @@
   <strong>On-demand phone repair app with customer booking, technician dispatch, quotes, chat, scheduling, admin pricing, push notifications, calendar sync, and a local backend.</strong>
 </p>
 
-<p align="center">
-  <img src="docs/assets/app-preview.svg" alt="FixDrop app preview screenshot" width="100%" />
-</p>
-
 ## Correct Source Snapshot
 
 This repository now points to the intended local project:
