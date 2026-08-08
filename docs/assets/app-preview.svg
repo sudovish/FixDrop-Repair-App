@@ -1,122 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920" role="img" aria-label="FixDrop app screen previews">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="FixDrop real app screenshots from the iOS app">
   <defs>
-    <linearGradient id="page" x1="0" y1="0" x2="1500" y2="920" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#F8FAFC"/>
-      <stop offset="1" stop-color="#E0F2FE"/>
-    </linearGradient>
-    <linearGradient id="phone" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#F1F5F9"/>
-    </linearGradient>
-    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#38BDF8"/>
-      <stop offset="1" stop-color="#2563EB"/>
-    </linearGradient>
-    <filter id="drop" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="28" stdDeviation="26" flood-color="#0F172A" flood-opacity="0.16"/>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#1f163d" flood-opacity="0.20"/>
     </filter>
     <style>
-      .title{font:700 54px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#0F172A}
-      .sub{font:500 24px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#475569}
-      .h{font:800 23px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#0F172A}
-      .p{font:600 15px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#64748B}
-      .small{font:700 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#64748B}
-      .white{fill:#fff}
+      .title{font:700 48px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#1f163d}
+      .sub{font:500 22px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#635985}
+      .label{font:700 18px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#4f466f}
     </style>
   </defs>
+  <rect width="1200" height="760" fill="#f7f3ff"/>
+  <rect x="54" y="48" width="1092" height="664" rx="42" fill="#ffffff"/>
+  <image href="data:image/jpeg;base64,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" x="92" y="84" width="86" height="86" preserveAspectRatio="xMidYMid meet"/>
+  <text x="204" y="122" class="title">FixDrop 5.2</text>
+  <text x="206" y="160" class="sub">Actual iOS app screenshots from the Downloads/FixDrop-5-2 build</text>
 
-  <rect width="1500" height="920" rx="0" fill="url(#page)"/>
-  <circle cx="1290" cy="120" r="160" fill="#BAE6FD" opacity="0.35"/>
-  <circle cx="150" cy="780" r="210" fill="#DBEAFE" opacity="0.55"/>
-
-  <text x="90" y="92" class="title">FixDrop Demo 2</text>
-  <text x="92" y="132" class="sub">Customer repair requests, technician dispatch, quotes, scheduling, chat, and admin pricing.</text>
-
-  <!-- Phone 1 -->
-  <g transform="translate(95 205)" filter="url(#drop)">
-    <rect x="0" y="0" width="300" height="600" rx="48" fill="#0F172A"/>
-    <rect x="16" y="18" width="268" height="564" rx="38" fill="url(#phone)"/>
-    <rect x="112" y="34" width="76" height="8" rx="4" fill="#CBD5E1"/>
-    <text x="34" y="82" class="small">CUSTOMER</text>
-    <text x="34" y="118" class="h">Book a repair</text>
-    <rect x="34" y="145" width="232" height="110" rx="24" fill="url(#blue)"/>
-    <text x="58" y="188" font-family="-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="800" fill="#fff">iPhone screen</text>
-    <text x="58" y="222" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="600" fill="#DBEAFE">Estimated $120-$240</text>
-    <rect x="34" y="282" width="232" height="54" rx="18" fill="#EFF6FF"/>
-    <text x="58" y="316" class="p">1. Select device</text>
-    <rect x="34" y="350" width="232" height="54" rx="18" fill="#EFF6FF"/>
-    <text x="58" y="384" class="p">2. Describe issue</text>
-    <rect x="34" y="418" width="232" height="54" rx="18" fill="#EFF6FF"/>
-    <text x="58" y="452" class="p">3. Add photos</text>
-    <rect x="34" y="500" width="232" height="46" rx="23" fill="#2563EB"/>
-    <text x="92" y="530" font-family="-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="800" fill="#fff">Submit Request</text>
+  <g transform="translate(258 210)" filter="url(#shadow)">
+    <rect x="0" y="0" width="292" height="482" rx="40" fill="#181425"/>
+    <rect x="12" y="14" width="268" height="454" rx="30" fill="#ffffff"/>
+    <image href="data:image/jpeg;base64,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" x="21" y="24" width="250" height="434" preserveAspectRatio="xMidYMin slice"/>
   </g>
+  <text x="318" y="728" class="label">Customer home</text>
 
-  <!-- Phone 2 -->
-  <g transform="translate(430 205)" filter="url(#drop)">
-    <rect x="0" y="0" width="300" height="600" rx="48" fill="#0F172A"/>
-    <rect x="16" y="18" width="268" height="564" rx="38" fill="url(#phone)"/>
-    <rect x="112" y="34" width="76" height="8" rx="4" fill="#CBD5E1"/>
-    <text x="34" y="82" class="small">TECHNICIAN</text>
-    <text x="34" y="118" class="h">Open jobs</text>
-    <rect x="34" y="146" width="232" height="92" rx="22" fill="#FFFFFF" stroke="#E2E8F0"/>
-    <text x="55" y="180" class="h" font-size="19">Pixel battery</text>
-    <text x="55" y="210" class="p">2.8 km - urgent</text>
-    <rect x="178" y="171" width="64" height="28" rx="14" fill="#DCFCE7"/>
-    <text x="192" y="190" font-family="-apple-system,Segoe UI,sans-serif" font-size="12" font-weight="800" fill="#15803D">NEW</text>
-    <rect x="34" y="258" width="232" height="92" rx="22" fill="#FFFFFF" stroke="#E2E8F0"/>
-    <text x="55" y="292" class="h" font-size="19">Back glass</text>
-    <text x="55" y="322" class="p">Quote requested</text>
-    <rect x="34" y="380" width="108" height="100" rx="22" fill="#EFF6FF"/>
-    <text x="58" y="421" class="h" font-size="24">14</text>
-    <text x="58" y="450" class="p">active</text>
-    <rect x="158" y="380" width="108" height="100" rx="22" fill="#F0FDFA"/>
-    <text x="182" y="421" class="h" font-size="24">4.8</text>
-    <text x="182" y="450" class="p">rating</text>
-    <rect x="34" y="510" width="232" height="36" rx="18" fill="#0F172A"/>
-    <text x="106" y="534" font-family="-apple-system,Segoe UI,sans-serif" font-size="14" font-weight="800" fill="#fff">Accept Job</text>
+  <g transform="translate(650 210)" filter="url(#shadow)">
+    <rect x="0" y="0" width="292" height="482" rx="40" fill="#181425"/>
+    <rect x="12" y="14" width="268" height="454" rx="30" fill="#ffffff"/>
+    <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAFKAOUDASIAAhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAAAAECAwQFBv/EADwQAAIBAgQDBQQJAgYDAAAAAAABAgMRBBIhMRNRYQUUIjJBU3GR8BUjM0NSgZKh0XLBBiQ0QmKCRbHh/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAeEQEBAQACAgMBAAAAAAAAAAAAARECExJRITFhA//aAAwDAQACEQMRAD8A+zxEq0XDgwUry8V/RHNxO0XJpUaaXo5Pr7+R3ADmpTxkqFR1adOFVLwJO6bt7+ZTjY1qa7tFOKVm5rxO+vu0udgA4qdfHO8amGjF5W1JSur2/k66Tm6UHUWWbSzLkywAC4ZF7JtgTcXOOPamEkm+Ja1v9r9Vc1oYuhiJSjRqKUoq7VmrAb3FzKvWhh6eeo7Ruo35XdjB9p4bu7rKTcVa6tZq+24HZcXOT6Twdm+MrL/i/wCC9HGUK81CnO8nfSz9AOi4uUq1I0qUqk/LFXdjnn2lhqUlGrJwn6xa1XwA67i5xvtPCK31unq8r00udFOrCrSVSm80Hs7bgaXFzjr46FCajVeW6ve2hn9J0b+dpc3F9f4ZrxvoehcHHSx1OrPLTqKUt7WOqLukyWWfYsACAc03jO+WhGl3fLe7vmvyOkAcUKuPsnKhDRK6vZvnbUl1Mb33Lw493s/FfW+lv7nYACvZX3AAAXKORGZgaXFzPMxmYGlxczzMZmBdkXto9iuZkXYEOlRbu6UL2tfKi0Y04NuEIxb3aVrkXYuwLSyTjlnFSXJq5RUqMc1qcfE7vTcm7JjqBTu2GbbdCndq3kReNOlFpxpxTWzUVoXsLAQ3GSakrp6NNGXd8OvuKf6EbWFgMpUKEvNRpv3wRdZYxyxjaK9Ei1hYDCeHp1HeUYy9PFG5HdqV75IX/pR0WFi7RzU8JRpO8IJO7d0tdToiibE2JugAAAAAAAAAAMnuA9wUAAAAAAAAAAAJjuQTHcDRAIEAAAAAAAAAAAAAAAAAAAAABk9z5x9rY3D4jFXzYjK3ZZLQprOkr6JqyfN33uj6N7mPHlezpTKPEj2r2jOrFyjTpQlUo3jkbtGUXfX3orT7cx8MJGpPCqSUbeLNmvkUrvTbVr8j3Y4jNNR4c03zWxEqkasHCdGUoy0alG6aA8nC9uYivi6NJ0abpzqypucFLWztdX2Xqe6c9NqhDh0qGSCeiirLfoXVZuSTpzV+gGoMeO2k1Sm79Bx37Kpz2A2Blxt/q56LluTCq5ytw5R0vdgaEx3IJjuBogECAAAAAAAAAAAAAAAAAAAAAAye5i6U2/tpfA2e5d5IRzTaSW7bKOfhTytKrK7d7jhVPSq/gdOWPJDKuQ0cypTV/rZaojgz9tLqdLyRtdpX0V3uJOnDzOMb83YaOeVKbd1WkuliFRmnd1pNXvax1ZVyGVchozBplXIZVyGjMmO5aUVbQrHcDRAIEAAAAAAAAAAAAAAAAAAAAABk9xicPHE0VCTcbNSTST1XRh7l6kc8LOTj1TA4H2NTlK8q9ZpbRbVlrflzI+hKOVrj4i7Vs2fVfP8AdnXGjGP3tR+9kOhdfb1fiBj9EUHThCcqklFuSblre1v7Gcuw8PK96lXVWWq0Wn8Ho5lzGZcwMsJho4Sjw4znNZm7zd3qbEZlzGZcwJBGZcxmXMBLyspHcvLyspHcDRAIAAAAAAAAAAAAAAAAAAAAAAGT3Lz8pR7mjV1Yo4quJrQrOEMNOcfxXsjWhUlVpKU6bpSv5W9TfJ1GTqBQF+H1HD6gUBfh9Rw+oFAX4fUcPqA+7Kx3LtWi0UjuQaIBAAAAAAAAAAAAAAAAAAAAAAAye5ecVKHibXuKPcvPylGSoUUmrS1Vt/d/BCw9FST8d077nPUnjIznw6UJxu8t3Y6YOThFzSUrapejA1zrqM66lABfOuozrqUAF866jOigA0lrFlI7lvuysdyDRAIAAAAAAAAAAAAAAAAAAAAAAGT3NJOKj4mkupm9y84xlC00pLkyiv1f41p1JtD8S+Jk6FB/dImVKjJtumm3v1AuuG3ZTT/MtkXUyjRoxknGmk07mvE6AMi6jIuo4nQcToQMi6jIuo4nQcRcgJlpFlI7l27xZSO4GiAQAAAAAAAAAAAAAAAAAAAAAAMnuXn5Sj3NJNKPi2KOKvDFSb4VSMVfRW9Leu/qZcLH+3h8/l87HoZqX4o/EjNSSvmjb3gcHCx/t4fP5fO3UmNLHZletG19fmx33pq3ijr1F6f4o/ECoLOVJOzlH4i9O18y+IFQSpUn/uj8S+SPICPuysdy8vKykdyDRAIAAAAAAAAAAAAAAAAAAAAAAGT3L1E5QtFRb5SKPcjF1nQw7nHzaJFk34FVRk/NTpb62W44c07qnT13PP79iPafsh37Ee0/ZHTqq49FUp31p0rJPYjh1LaQpJ25HA8Xila82r7eFEPGYlOzm7/0odVMeg6UtLU6W21vUl05OaTpU8qej6Hn98xVr53Z/wDFB4zFJXc2v+qHVTHeqUr/AGNKx0Hj9+xHtP2QWOxCf2n7IdVMevLyspHcUqnFw8ZtWclcR3OaNEAgQAAAAAAAAAAAAAA58dXeGwznFXleyudBw9r/AOj/AO6A4I4zF1H4akn7khLG4um/FUkvekdvZChw29MxXthQyRemYDrwdd4jDRqSVnswY9k/6Jf1MAdD3KY2lKrhnGCu007F3uWU7LYsufI8bu9b2U/0ju9b2U/0ntcToOJ0OvbfS68qq8RVjGMqTWXlFkf5n8E/0nrcToOJ0J2fhryFHEraE/0hxxLTThOz38J6/E6DidB2fhrxeBW9lP8ASFh6zf2U/ge1xOg4nQvbfRqlGDp4aMJbpakx3JlO6sRHc5VGiAQIAAAAAAAAAAAAAAc2PoSxGGcIeZO6XM6QB4EKOKpPw0qifRCdDFVZeKlUb6o9+wsBz4GjKhhYwl5t2DoAGT3NFFW2M3uRisMsVSjCU5ws1JOLtqtgNrLkiGorexxU+y4xhKNTEVqiklvLazT/APaK/RFKyUq1aSXOQHfZckTZckcMuyoyy3xFdqOyzfv7y9Ls6NOcJqvXbi76z0fQDrsuSFlyQAHm4ztzs/BV3RrVHxI7qMW7HTSxcatNTjh62WSurwsfPdqf4axdXtCrXw0qcoVJZ7SdmnyPoqVXE8OPFwyU7a5Zpq56OfDhOMvG61ZGkZQqU80NvdawjuRShKEJuds05ZmlsvmxMdzhWWiAQIAAAAAAAAAAAAAAAAAAAAADJ7mvoZPcri8PPEU4Rp1pUnGWa8fXoBuDz1gsbazx7t/QtdC9TBV5TjKGLnFqCi9L3fPcDtBxU8JioShmxspJSu04+bXVFZYHFttLGyjFq2kf/oHeDgWBxa/8hP8ASuv8ndFNQSk7tLV8wObE9pYPCVMmIxNOnPfK3qWp47D1IKcJuUXtJRdn+x8t2v2Hj5dp1q1Ki69OpPMmmvgz6ijim6Uc2FrU3byZVod+f8+HHjLxutWRupRnTzQkpRa0aKx3K0YyjTqSlHLnk5ZeXzv+ZaO5xrLRAIEAAAAAAAAAAAAAAAAAAAAABk9yVNpEPcze5RtnfQZ30MDOVXLKzWl7XJrU466876DO+hx1MTTpzyzun7iHiqSipJtpvl88xsXwrtzvoM76HF3qla93a9r2EsVSjJptr8hsPDk7c76DO+hyU8RTqTyxbzWvazNBqXjZ9tnJsR3Mo7msdystEAgQAAAAAAAAAAAAAAAAAAAAAGT3KOLuXe4KKZWV4SzZsqvzNQMXWUqSkmpRTvvcnh9FoaAYbWfD0tlVhkv6I0Aw1nk6InKy4GGqKLvqaR3IJjuEaIBAgAAAAAAAAAAAAAAAAAAAAAMnuA9wUAAAAAAAAAAAJjuQTHcDRAIEAAAAAAAAAAAAAAAAAAAAABk9wHuCgAAAAAAAAAABMdyCY7gaIBAgAAAAAAAAAAAAAAAAAAAAAMnuA9wUAAAAAAAAAAAJjuQTHcDRAIEAAAAAAAAAAAAAAAAAAAAABk9wHuCgAAAAAAAAAABMdyCY7gaIBAgAAAAAAAAAAAAAAAAAAAAAM3uQXZUCASAIBIAgEgCASAIJiCyAsgAAAAAAAAAAAAAAAAAAAAAAAf/Z" x="21" y="24" width="250" height="434" preserveAspectRatio="xMidYMin slice"/>
   </g>
-
-  <!-- Phone 3 -->
-  <g transform="translate(765 205)" filter="url(#drop)">
-    <rect x="0" y="0" width="300" height="600" rx="48" fill="#0F172A"/>
-    <rect x="16" y="18" width="268" height="564" rx="38" fill="url(#phone)"/>
-    <rect x="112" y="34" width="76" height="8" rx="4" fill="#CBD5E1"/>
-    <text x="34" y="82" class="small">QUOTE + CHAT</text>
-    <text x="34" y="118" class="h">Repair thread</text>
-    <rect x="34" y="146" width="180" height="52" rx="20" fill="#E0F2FE"/>
-    <text x="54" y="178" class="p">Can you fix today?</text>
-    <rect x="86" y="220" width="180" height="68" rx="20" fill="#2563EB"/>
-    <text x="108" y="250" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#fff">Yes, quote sent.</text>
-    <text x="108" y="272" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="600" fill="#DBEAFE">Screen + labor</text>
-    <rect x="34" y="322" width="232" height="130" rx="24" fill="#FFFFFF" stroke="#E2E8F0"/>
-    <text x="58" y="360" class="h" font-size="20">Quote</text>
-    <text x="58" y="394" class="p">Screen replacement</text>
-    <text x="58" y="424" class="p">Travel fee</text>
-    <text x="190" y="394" class="p">$189</text>
-    <text x="198" y="424" class="p">$20</text>
-    <rect x="34" y="492" width="232" height="46" rx="23" fill="#16A34A"/>
-    <text x="96" y="522" font-family="-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="800" fill="#fff">Accept Quote</text>
-  </g>
-
-  <!-- Phone 4 -->
-  <g transform="translate(1100 205)" filter="url(#drop)">
-    <rect x="0" y="0" width="300" height="600" rx="48" fill="#0F172A"/>
-    <rect x="16" y="18" width="268" height="564" rx="38" fill="url(#phone)"/>
-    <rect x="112" y="34" width="76" height="8" rx="4" fill="#CBD5E1"/>
-    <text x="34" y="82" class="small">ADMIN</text>
-    <text x="34" y="118" class="h">Pricing control</text>
-    <rect x="34" y="148" width="232" height="74" rx="22" fill="#FFFFFF" stroke="#E2E8F0"/>
-    <text x="58" y="178" class="p">Screen range</text>
-    <text x="58" y="205" class="h" font-size="21">$120 - $240</text>
-    <rect x="34" y="244" width="232" height="74" rx="22" fill="#FFFFFF" stroke="#E2E8F0"/>
-    <text x="58" y="274" class="p">Guardrails</text>
-    <text x="58" y="301" class="h" font-size="21">Admin approval</text>
-    <rect x="34" y="348" width="232" height="54" rx="18" fill="#F8FAFC" stroke="#E2E8F0"/>
-    <rect x="52" y="372" width="168" height="8" rx="4" fill="#60A5FA"/>
-    <rect x="34" y="424" width="232" height="54" rx="18" fill="#F8FAFC" stroke="#E2E8F0"/>
-    <rect x="52" y="448" width="118" height="8" rx="4" fill="#14B8A6"/>
-    <rect x="34" y="510" width="232" height="36" rx="18" fill="#2563EB"/>
-    <text x="102" y="534" font-family="-apple-system,Segoe UI,sans-serif" font-size="14" font-weight="800" fill="#fff">Save Pricing</text>
-  </g>
+  <text x="716" y="728" class="label">Profile settings</text>
 </svg>
