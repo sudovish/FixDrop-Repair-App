@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="FixDrop app logo">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="780" y2="820" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.48" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="350" y1="210" x2="545" y2="690" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#020617" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <rect width="900" height="900" rx="210" fill="url(#bg)"/>
+  <circle cx="690" cy="180" r="88" fill="#A7F3D0" opacity="0.18"/>
+  <circle cx="160" cy="705" r="130" fill="#FFFFFF" opacity="0.08"/>
+  <g filter="url(#shadow)">
+    <path d="M306 250h252c34 0 62 28 62 62v330c0 34-28 62-62 62H306c-34 0-62-28-62-62V312c0-34 28-62 62-62z" fill="#F8FAFC"/>
+    <path d="M336 306h192c15 0 27 12 27 27v250c0 15-12 27-27 27H336c-15 0-27-12-27-27V333c0-15 12-27 27-27z" fill="#DBEAFE"/>
+    <path d="M476 350 358 512h92l-28 140 126-176h-96l24-126z" fill="url(#bolt)" stroke="#2563EB" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M344 660h176" stroke="#2563EB" stroke-width="28" stroke-linecap="round"/>
+  </g>
+  <path d="M652 614c58 0 105-47 105-105 0-26-10-50-26-68" fill="none" stroke="#A7F3D0" stroke-width="30" stroke-linecap="round"/>
+  <path d="m735 431 15 85-83-24" fill="none" stroke="#A7F3D0" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
