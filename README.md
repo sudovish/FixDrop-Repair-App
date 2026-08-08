@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/assets/app-preview.svg" alt="FixDrop app screen previews" width="100%" />
+  <img src="docs/assets/app-preview.svg" alt="FixDrop phone-view app screen previews" width="100%" />
 </p>
 
 ## Correct Source Snapshot
@@ -141,7 +141,7 @@ The app source is in `FixDrop/` and uses the backend/API configuration in `FixDr
 
 ## README Visuals
 
-The images at the top of this README use actual FixDrop assets from the app, not a document or generic mockup. The logo comes from the Xcode app icon asset catalog, and the screen preview embeds real iOS screenshots showing the customer home screen and profile/settings screen.
+The images at the top of this README use actual FixDrop assets from the app, not a document or generic mockup. The logo comes from the Xcode app icon asset catalog, and the screen preview shows phone-view crops from real iOS screenshots of the customer home screen and profile/settings screen.
 
 ## Portfolio Notes
 
