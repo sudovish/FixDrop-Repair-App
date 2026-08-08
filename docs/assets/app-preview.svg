@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920" role="img" aria-label="FixDrop app screen previews">
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1500" y2="920" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <filter id="drop" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="26" flood-color="#0F172A" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .title{font:700 54px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#0F172A}
+      .sub{font:500 24px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#475569}
+      .h{font:800 23px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#0F172A}
+      .p{font:600 15px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#64748B}
+      .small{font:700 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#64748B}
+      .white{fill:#fff}
+    </style>
+  </defs>
+
+  <rect width="1500" height="920" rx="0" fill="url(#page)"/>
+  <circle cx="1290" cy="120" r="160" fill="#BAE6FD" opacity="0.35"/>
+  <circle cx="150" cy="780" r="210" fill="#DBEAFE" opacity="0.55"/>
+
+  <text x="90" y="92" class="title">FixDrop Demo 2</text>
+  <text x="92" y="132" class="sub">Customer repair requests, technician dispatch, quotes, scheduling, chat, and admin pricing.</text>
+
+  <!-- Phone 1 -->
+  <g transform="translate(95 205)" filter="url(#drop)">
+    <rect x="0" y="0" width="300" height="600" rx="48" fill="#0F172A"/>
+    <rect x="16" y="18" width="268" height="564" rx="38" fill="url(#phone)"/>
+    <rect x="112" y="34" width="76" height="8" rx="4" fill="#CBD5E1"/>
+    <text x="34" y="82" class="small">CUSTOMER</text>
+    <text x="34" y="118" class="h">Book a repair</text>
+    <rect x="34" y="145" width="232" height="110" rx="24" fill="url(#blue)"/>
+    <text x="58" y="188" font-family="-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="800" fill="#fff">iPhone screen</text>
+    <text x="58" y="222" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="600" fill="#DBEAFE">Estimated $120-$240</text>
+    <rect x="34" y="282" width="232" height="54" rx="18" fill="#EFF6FF"/>
+    <text x="58" y="316" class="p">1. Select device</text>
+    <rect x="34" y="350" width="232" height="54" rx="18" fill="#EFF6FF"/>
+    <text x="58" y="384" class="p">2. Describe issue</text>
+    <rect x="34" y="418" width="232" height="54" rx="18" fill="#EFF6FF"/>
+    <text x="58" y="452" class="p">3. Add photos</text>
+    <rect x="34" y="500" width="232" height="46" rx="23" fill="#2563EB"/>
+    <text x="92" y="530" font-family="-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="800" fill="#fff">Submit Request</text>
+  </g>
+
+  <!-- Phone 2 -->
+  <g transform="translate(430 205)" filter="url(#drop)">
+    <rect x="0" y="0" width="300" height="600" rx="48" fill="#0F172A"/>
+    <rect x="16" y="18" width="268" height="564" rx="38" fill="url(#phone)"/>
+    <rect x="112" y="34" width="76" height="8" rx="4" fill="#CBD5E1"/>
+    <text x="34" y="82" class="small">TECHNICIAN</text>
+    <text x="34" y="118" class="h">Open jobs</text>
+    <rect x="34" y="146" width="232" height="92" rx="22" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="55" y="180" class="h" font-size="19">Pixel battery</text>
+    <text x="55" y="210" class="p">2.8 km - urgent</text>
+    <rect x="178" y="171" width="64" height="28" rx="14" fill="#DCFCE7"/>
+    <text x="192" y="190" font-family="-apple-system,Segoe UI,sans-serif" font-size="12" font-weight="800" fill="#15803D">NEW</text>
+    <rect x="34" y="258" width="232" height="92" rx="22" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="55" y="292" class="h" font-size="19">Back glass</text>
+    <text x="55" y="322" class="p">Quote requested</text>
+    <rect x="34" y="380" width="108" height="100" rx="22" fill="#EFF6FF"/>
+    <text x="58" y="421" class="h" font-size="24">14</text>
+    <text x="58" y="450" class="p">active</text>
+    <rect x="158" y="380" width="108" height="100" rx="22" fill="#F0FDFA"/>
+    <text x="182" y="421" class="h" font-size="24">4.8</text>
+    <text x="182" y="450" class="p">rating</text>
+    <rect x="34" y="510" width="232" height="36" rx="18" fill="#0F172A"/>
+    <text x="106" y="534" font-family="-apple-system,Segoe UI,sans-serif" font-size="14" font-weight="800" fill="#fff">Accept Job</text>
+  </g>
+
+  <!-- Phone 3 -->
+  <g transform="translate(765 205)" filter="url(#drop)">
+    <rect x="0" y="0" width="300" height="600" rx="48" fill="#0F172A"/>
+    <rect x="16" y="18" width="268" height="564" rx="38" fill="url(#phone)"/>
+    <rect x="112" y="34" width="76" height="8" rx="4" fill="#CBD5E1"/>
+    <text x="34" y="82" class="small">QUOTE + CHAT</text>
+    <text x="34" y="118" class="h">Repair thread</text>
+    <rect x="34" y="146" width="180" height="52" rx="20" fill="#E0F2FE"/>
+    <text x="54" y="178" class="p">Can you fix today?</text>
+    <rect x="86" y="220" width="180" height="68" rx="20" fill="#2563EB"/>
+    <text x="108" y="250" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#fff">Yes, quote sent.</text>
+    <text x="108" y="272" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="600" fill="#DBEAFE">Screen + labor</text>
+    <rect x="34" y="322" width="232" height="130" rx="24" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="58" y="360" class="h" font-size="20">Quote</text>
+    <text x="58" y="394" class="p">Screen replacement</text>
+    <text x="58" y="424" class="p">Travel fee</text>
+    <text x="190" y="394" class="p">$189</text>
+    <text x="198" y="424" class="p">$20</text>
+    <rect x="34" y="492" width="232" height="46" rx="23" fill="#16A34A"/>
+    <text x="96" y="522" font-family="-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="800" fill="#fff">Accept Quote</text>
+  </g>
+
+  <!-- Phone 4 -->
+  <g transform="translate(1100 205)" filter="url(#drop)">
+    <rect x="0" y="0" width="300" height="600" rx="48" fill="#0F172A"/>
+    <rect x="16" y="18" width="268" height="564" rx="38" fill="url(#phone)"/>
+    <rect x="112" y="34" width="76" height="8" rx="4" fill="#CBD5E1"/>
+    <text x="34" y="82" class="small">ADMIN</text>
+    <text x="34" y="118" class="h">Pricing control</text>
+    <rect x="34" y="148" width="232" height="74" rx="22" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="58" y="178" class="p">Screen range</text>
+    <text x="58" y="205" class="h" font-size="21">$120 - $240</text>
+    <rect x="34" y="244" width="232" height="74" rx="22" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="58" y="274" class="p">Guardrails</text>
+    <text x="58" y="301" class="h" font-size="21">Admin approval</text>
+    <rect x="34" y="348" width="232" height="54" rx="18" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <rect x="52" y="372" width="168" height="8" rx="4" fill="#60A5FA"/>
+    <rect x="34" y="424" width="232" height="54" rx="18" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <rect x="52" y="448" width="118" height="8" rx="4" fill="#14B8A6"/>
+    <rect x="34" y="510" width="232" height="36" rx="18" fill="#2563EB"/>
+    <text x="102" y="534" font-family="-apple-system,Segoe UI,sans-serif" font-size="14" font-weight="800" fill="#fff">Save Pricing</text>
+  </g>
+</svg>
