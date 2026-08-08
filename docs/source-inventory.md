@@ -1,28 +1,60 @@
 # Source Inventory
 
-This repository is based on the local workspace folder:
+This repository is based on the intended local project folder:
 
 ```text
-FixDrop-5-2-demo
+/Users/vshnav/Downloads/FixDrop-5-2
 ```
 
-A separate archive named `FixDrop 2.zip` also exists locally, but the unpacked `FixDrop-5-2-demo` folder contains later edits than the zip. This repo presents the project as `FixDrop Demo 2` while using the newer unpacked source evidence.
+This is not the earlier workspace copy `FixDrop-5-2-demo`. The Downloads copy contains newer May 5 changes and should be treated as the correct source of truth.
+
+## Local Evidence
+
+The Downloads project contains:
+
+- `APP_REVIEW_BACKEND_PROMPT.md`
+- `BACKEND_PORTAL_PROMPT.md`
+- `BACKEND_REALTIME_PROMPT.md`
+- `BACKEND_SCHEDULING_AND_SALES_PROMPT.md`
+- `FixDrop/` SwiftUI app source
+- `FixDrop.xcodeproj/` Xcode project
+- `FixDrop/FixDrop.entitlements`
+- `backend/` Node/SQLite backend source
+- `FixDrop.zip`, `FixDrop 2.zip`, and `FixDrop 3.zip` archives
 
 ## Local Source Counts
 
-Approximate source footprint found locally:
+Approximate source footprint found in `/Users/vshnav/Downloads/FixDrop-5-2`:
 
-| Area | Files | Lines |
-|---|---:|---:|
-| iOS Swift app + backend source/docs | 46 | ~9,800 |
-| Swift app source only | 31 | ~8,600 |
-| Node/SQLite backend | 14 | ~1,200 |
+| Area | Lines |
+|---|---:|
+| Swift app + backend source/docs | ~12,720 |
+| `RepairStore.swift` | 1,992 |
+| `AdminViews.swift` | 1,368 |
+| `HomeView.swift` | 591 |
+| `Models.swift` | 522 |
+| Backend source | ~1,200 |
 
-## Important Local App Files
+## Newer Files In This Version
+
+The most recent local edits are:
+
+```text
+2026-05-05 FixDrop/Views/Customer/CustomerTabView.swift
+2026-05-05 FixDrop/Store/RepairStore.swift
+2026-05-05 FixDrop/Services/PricingService.swift
+2026-05-05 FixDrop/Views/HomeView.swift
+2026-05-05 FixDrop/Views/Customer/CustomerOnboardingView.swift
+2026-05-05 FixDrop/Views/LaunchView.swift
+```
+
+## Important App Files
 
 ```text
 FixDrop/FixDropApp.swift
 FixDrop/ContentView.swift
+FixDrop/FixDrop.entitlements
+FixDrop/Info.plist
 FixDrop/Models/Models.swift
 FixDrop/Models/PricingModels.swift
 FixDrop/Services/PricingService.swift
@@ -54,7 +86,7 @@ FixDrop/Views/Technician/TechnicianLoginView.swift
 FixDrop/Views/Technician/TechnicianTabView.swift
 ```
 
-## Important Local Backend Files
+## Important Backend Files
 
 ```text
 backend/server.js
@@ -71,6 +103,6 @@ backend/services/phone.js
 backend/services/repairAccess.js
 ```
 
-## Repository Packaging Note
+## Packaging Note
 
-This GitHub repo excludes generated build outputs, simulator state, user-specific Xcode data, zip archives, local SQLite databases, and secrets. It focuses on making the project readable as a professional portfolio artifact with the main app architecture, backend architecture, source excerpts, and visual presentation assets.
+This repo excludes generated build outputs, simulator state, `.DS_Store`, local SQLite databases, secrets, and machine-specific files. The public GitHub repo should represent `/Users/vshnav/Downloads/FixDrop-5-2` as the source of truth.
