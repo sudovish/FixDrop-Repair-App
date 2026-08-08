@@ -139,8 +139,10 @@ FixDrop.xcodeproj
 
 The app source is in `FixDrop/` and uses the backend/API configuration in `FixDrop/Services/PricingService.swift` and the store/networking layer in `FixDrop/Store/RepairStore.swift`.
 
+## README Visuals
+
+The images at the top of this README use actual FixDrop assets from the app, not a document or generic mockup. The logo comes from the Xcode app icon asset catalog, and the screen preview embeds real iOS screenshots showing the customer home screen and profile/settings screen.
+
 ## Portfolio Notes
 
 This repo is organized for employers and reviewers to understand the product, architecture, and implementation work. It excludes generated build outputs, `.DS_Store`, local databases, secrets, and machine-specific state.
-
-The visual images in this README are polished SVG previews created for GitHub presentation, based on the actual implemented flows: request intake, technician dashboard, chat/quotes, and admin pricing.
